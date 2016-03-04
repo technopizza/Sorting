@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="urban" tilewidth="64" tileheight="64" tilecount="64" columns="8">
+  <image source="../../../../Pictures/duboisTiles.png" width="512" height="512"/>
+  <tile id="4">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="floor" width="50" height="50">
+  <properties>
+   <property name="whataburger" value=""/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC7WZsVLkQAxEDUdmZ3Z4hISE/P+v4QCqdO9ea8YLDlTr3bWlaanV0sK6LMt62nbaftpRXlexDa/8rF4/nfZ82p/TXsr91f8+GS/FqjF33Fvx7PieeIn9+LrnEBz1/g3XNfYuvnnGtcQ5ln/PxnNv8n19hmepWBIO1ttyckj8+kpMqWbJiJF1YL06HMxZ9ZPOaXntalZxW0zeaz5n6lFf6dNybH3I/POcXcx07tl6MP/We11/GsZUH+sH6kR6P9KrioO9R67We9iXKZddX6S8115h7ye96mpNHNS071jMYb2Pn7PWptcWu6sHe9XqnbhmvEhaWWtJrNWsjqM5yL4mp6zvmX9eGzcTXuIwDbY5YvUw/JyhrLXNTMtB0hvjEvlX8TJOqkflLXucPoxfFjNpIY217Gx2L0k6QizGC9Po1MNpRnUY63WHo+4XSWssVtIvq4H1rPXeyPfVPk85st0o6bP1vWHucJC7ne52fOYspqbY7FyX/8832s+6GlRLOFKPUG+Stpg22/4y0jDOD/K7m+fGd+ah21GMaxu+6+ph+pLidPODvu1MrAFrV3PNfPJsduZVnqf/mTlosVO/sz/TbDMf/NxiWV+yzsarVOc0u0a1r2b8T3O7M3K920tGHE68Mx3usD1q1e/M78E0Dzr9NX683mh/YXfGervRiOPOWO83GnHcGevjRiOOO2PNaMKM2Q7TzcHftKrdPzXbibq/M1zxyzNbXO4I3XwY5WSE45Ecz56pane3f9keUGPYfake3XlX+B7NOeIgv1KOubfV99x9Zv6+y72GeR7tk5aXujN0ezrrzf2964+aL2JK57OeqJ+nGiZO7njO9uARDu5gqU/tzF0vpr4g59lLHf4ZvUq/ebh7G8crd1kv1oZ8ov9jeQzHEfwYl9K+Tj53OWZ+LDY14ioO9oPpZtIVxmX/pvxTi4wfszgsV6zvaA6abvH3jOU/1SLN1BGOpA3UdtMznpfcZs43uZ7hUzcHrb/TLGWeLOfUA9M01oPxTUs6HOQR/dtvS+Ls9iqr2wgD68nnRnOw2zXs/CNt7PjJHca+T2e6Mj9YJ+OE5Z38Y755HuMwc2sxOxymK9wROLOtVpv4YI2Ilfw0DDM4qBepv4zHHS84nzqNtflxtR7Jp/HT+tw4Y/mp+rUvXvfkbxYHaz+DwepAP+QVz12fY5+RwzP9YTmjpVwZTts9jIu2r1ArmbPR76h6naz6THXqdDN9d+X+7v+11Jrk03hrc/ETJUTwbBAnAAA=
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2ZywrCMBBFZxPrD7jVgqKLlrrQ//+2pgtBMLSZOJPewD0wi0KamcPksUgvIofG4xIjSPsEoQcSNTyuMW5f3w+HHOwHFl4eHmtnjRKPXtLndw6TMlcuJR6p8VtzvGK8lXk0WHl0BrX8g5XH3lh5HBX/P5X5cvDcH3d9OcWUeJzk97w6G9elhffgNl53RQrvfgwxRsf5P3BdYVHLw3uvsB9Y0AMLemBBDyzogQU9sKAHFvTAgh5Y0AMLemBBDyzogQU9sFgcUu9krcXyrjcD81v83BAnAAA=
+  </data>
+ </layer>
+</map>
