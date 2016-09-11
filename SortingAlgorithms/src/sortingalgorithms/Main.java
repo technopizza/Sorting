@@ -33,28 +33,28 @@ import java.util.*;
                 array[i] = randNum.nextInt(100) + 1;
             }
 
-            for (int i = 0; i < array.length; i++) {
-                if (i == array.length - 1) {
-                    System.out.println(array[i]);
-                } else {
-                    System.out.print(array[i] + ", ");
-                }
+            Sort.printArray(array);
+            
+            System.out.println("How would you like this array sorted?");
+            System.out.println("1. Selection Sort");
+            System.out.println("2. Insertion Sort");
+            System.out.println("3. Bubble Sort");
+            inputNum = input.nextInt();
+            if(inputNum == 1){
+                Sort.selectionSort(array);
             }
-
-            /* Create a menu that allows you to choose which sort(bubble, 
-             selection, or insertion) is used to sort the numbers */
-            for (int i = 0; i < array.length; i++) {
-                if (i == array.length - 1) {
-                    System.out.println(array[i]);
-                } else {
-                    System.out.print(array[i] + ", ");
-                }
+            else if(inputNum == 2){
+                Sort.insertionSort(array);
+            }
+            else if(inputNum == 3){
+                Sort.bubbleSort(array);
+            }
+            else{
+                System.out.println("That's not an option. You get bubble sort");
+                Sort.bubbleSort(array);
             }
             
-            Sort.bubbleSort(array);
-            //Sort.selectionSort(array);
-            //Sort.insertionSort(array);
-
+            
             System.out.print("Please enter the number you wish to look for: ");
             System.out.println("");
 
